@@ -16,7 +16,7 @@ public class descuentodetienda {
             System.out.println("Cantidad final con el descuento :$ "+ cantidadfinal);
             //en caso contrario que sea menor a 100 no dara descuento
         } else {
-            System.out.println("Cantidad final no aplica descuento $:$ " + cantidad);
+            System.out.println("Cantidad final no aplica descuento :$ " + cantidad);
         }
 
         scanner.close();
