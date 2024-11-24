@@ -6,7 +6,7 @@
 #	Menor a 60: F.
 
 #Lista de rangos de las calificaciones
-posiciones={
+calificaciones={
     "A": range (90,101),
     "B": range (80,89),
     "C": range (70,79),
@@ -17,7 +17,7 @@ posiciones={
 sistemacalifiacion=int(input("Ingresa porfavor un numero del 1 al 100 segun tu calificacion: "))
 
 #calificar al rango que puso el usuario
-for letra, rango in posiciones.items():
+for letra, rango in calificaciones.items():
     if sistemacalifiacion in rango:
         print("Tu posicion de calificaciones es: ", letra)
         break
