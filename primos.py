@@ -15,4 +15,5 @@ for num in range(1, 50):
         #los que son primo los añadimos ala lista
     if es_primo:
         lista_primos.append(num)
+        #imprimimos la lista por pantalla
 print(lista_primos)

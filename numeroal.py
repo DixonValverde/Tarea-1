@@ -6,10 +6,13 @@
 import random
 #Elige los numeros del 1 al 10
 numAL=random.randint (1,11)
+
 #mensaje que saldra en pantalla del usuario
+
 print("---Juego tienes que adivinar un numero tienes un solo intento---")
 participante=int(input("Ponga un numero del 1 al 10 que usted desee: "))
 
+#Usamos condiciones if si acerto y else en que no haya acertado
 if participante==numAL:
     print("Felicitaciones has adivinado el numero")
 else:
